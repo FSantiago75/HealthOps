@@ -52,7 +52,7 @@ p, h1, h2, h3, blockquote { margin-top: 0; }
 .button:active { transform: translateY(-1px) scale(.985); }
 .button:focus-visible, .text-link:focus-visible, .header__nav a:focus-visible { outline: 3px solid rgba(113,210,213,.48); outline-offset: 4px; }
 .button__arrow { display: grid; width: 40px; height: 40px; place-items: center; border: 1px solid rgba(3,19,79,.13); border-radius: 50%; background: rgba(255,255,255,.44); transition: transform .28s cubic-bezier(.2,.8,.2,1), background .28s ease; }
-.button:hover .button__arrow { transform: translate(2px,-2px) rotate(7deg); background: rgba(255,255,255,.72); }
+.button:hover .button__arrow { transform: translateX(3px); background: rgba(255,255,255,.72); }
 .button--light { color: var(--blue-900); background: var(--white); }
 .button--light:hover { color: var(--blue-900); background: var(--cyan-soft); }
 
