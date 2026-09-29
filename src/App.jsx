@@ -14,13 +14,16 @@ import { benefits, challenges, journey, metrics, platformFeatures } from './data
 export default function App() {
   useEffect(() => {
     const elements = document.querySelectorAll('[data-reveal]');
+    const isMobile = window.matchMedia('(max-width: 760px)').matches;
     const observer = new IntersectionObserver(
       (entries) => entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
         entry.target.classList.add('is-visible');
         observer.unobserve(entry.target);
       }),
-      { threshold: 0.08, rootMargin: '0px 0px -10% 0px' },
+      isMobile
+        ? { threshold: 0.015, rootMargin: '0px 0px 12% 0px' }
+        : { threshold: 0.08, rootMargin: '0px 0px -6% 0px' },
     );
     elements.forEach((element) => observer.observe(element));
 
