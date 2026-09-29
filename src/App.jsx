@@ -22,7 +22,7 @@ export default function App() {
         observer.unobserve(entry.target);
       }),
       isMobile
-        ? { threshold: 0.015, rootMargin: '0px 0px 12% 0px' }
+        ? { threshold: 0.12, rootMargin: '0px 0px -16% 0px' }
         : { threshold: 0.08, rootMargin: '0px 0px -6% 0px' },
     );
     elements.forEach((element) => observer.observe(element));
