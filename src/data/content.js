@@ -8,10 +8,10 @@ import tubeIcon from '../assets/icons/tube.png';
 import tubeBalloonIcon from '../assets/icons/tubeBaloon.png';
 
 export const metrics = [
-  { value: '+580 mi', label: 'de exames processados por ano', index: '01', icon: tubeBalloonIcon },
-  { value: '+60 mi', label: 'de atendimentos realizados por ano', index: '02', icon: serviceIcon },
-  { value: '85%', label: 'dos clientes com acreditação ou certificação', index: '03', icon: certificationIcon },
-  { value: '+23%', label: 'do volume anual de exames realizados no Brasil', index: '04', icon: tubeIcon },
+  { value: '24/7', label: 'visibilidade contínua da operação', index: '01', icon: tubeBalloonIcon },
+  { value: '360°', label: 'da jornada diagnóstica em uma visão', index: '02', icon: serviceIcon },
+  { value: '100%', label: 'de rastreabilidade como objetivo operacional', index: '03', icon: certificationIcon },
+  { value: 'Multi', label: 'unidades conectadas em uma arquitetura', index: '04', icon: tubeIcon },
 ];
 
 export const challenges = [

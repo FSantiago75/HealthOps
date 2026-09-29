@@ -1,7 +1,7 @@
 import Button from '../global/Button';
 import Container from '../global/Container';
 import DashboardMockup from '../visuals/DashboardMockup';
-import heroImage from '../../assets/images/hero.png';
+import heroImage from '../../assets/generated/health-ops-hero.png';
 import { ArrowDown, CheckCircle2, Radio } from 'lucide-react';
 
 export default function Hero() {
@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="floating-card floating-card--right"><small>Produtividade</small><strong>+18,7%</strong><span>no período</span></div>
         </div>
       </Container>
-      <div className="hero__foot"><span>SHIFT / LIS GLOBAL</span><span>01 — VISÃO GERAL</span></div>
+      <div className="hero__foot"><span>HEALTH OPS / CONCEPT</span><span>01 — VISÃO GERAL</span></div>
     </section>
   );
 }

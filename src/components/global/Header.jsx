@@ -1,14 +1,14 @@
 import Button from './Button';
 import Container from './Container';
-import shiftLogo from '../../assets/logos/shiftWhite.png';
+import healthOpsWordmark from '../../assets/generated/health-ops-wordmark.png';
 import { Activity } from 'lucide-react';
 
 export default function Header() {
   return (
     <header className="header">
       <Container className="header__inner">
-        <a className="brand" href="#top" aria-label="Shift — início">
-          <img src={shiftLogo} alt="Shift — Pulsa pela vida" />
+        <a className="brand" href="#top" aria-label="HealthOps Concept — início">
+          <img src={healthOpsWordmark} alt="HealthOps" />
         </a>
         <nav className="header__nav" aria-label="Navegação principal">
           <a href="#plataforma">Plataforma</a>
